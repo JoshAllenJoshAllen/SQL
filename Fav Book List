@@ -1,0 +1,42 @@
+Fav Books list 
+
+/** Book List:
+Spinning Silver
+A Winter's Promise
+If You  Give a Bear a Bong
+Spirit Almanac
+Mind for Numbers
+Social Anthropology and Human Orgins
+How to Train yor Dragon
+A Wrinkle in Time
+The Phantom Tollbooth
+The Ten Thousand Doors of January
+**/
+
+CREATE TABLE Books (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER );
+
+INSERT INTO Books VALUES (1, "Spinning Silver", 5);
+INSERT INTO Books VALUES (2, "A Winter's Promise", 4);
+INSERT INTO Books VALUES (3, "If You  Give a Bear a Bong", 5);
+INSERT INTO Books VALUES (4, "Spirit Almanac", 2);
+INSERT INTO Books VALUES (5, "Mind for Numbers", 3);
+INSERT INTO Books VALUES (6, "Social Anthropology and Human Orgins", 3);
+INSERT INTO Books VALUES (7, "How to Train yor Dragon", 5);
+INSERT INTO Books VALUES (8, "The Phantom Tollbooth", 5);
+INSERT INTO Books VALUES (9, "The Ten Thousand Doors of January", 5);
+SELECT * FROM Books;
+
+
+INSERT INTO Books VALUES (1, "Spinning Silver", 5);
+1, "Spinning Silver", 5),
+2, "A Winter's Promise", 4)
+(3, "If You  Give a Bear a Bong", 5
+4, "Spirit Almanac", 2)
+5, "Mind for Numbers", 3)
+(6, "Social Anthropology and Human Orgins", 3
+(7, "How to Train yor Dragon", 5)
+(8, "The Phantom Tollbooth", 5)
+(9, "The Ten Thousand Doors of January", 5)
+
+
+
