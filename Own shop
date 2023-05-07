@@ -1,0 +1,13 @@
+CREATE TABLE crochet_things (id INTEGER PRIMARY KEY, name TEXT, price INTEGER, number_of_items INTEGER, sold INTEGER, rating INTEGER);
+
+INSERT INTO crochet_things VALUES (1, "Turtle", 3.55, 5, 2, 3.5);
+INSERT INTO crochet_things VALUES(2, "Octopus",8.99, 7, 6, 4.5);
+INSERT INTO crochet_things VALUES(3, "Catus", 5.99, 3, 5, 5);
+INSERT INTO crochet_things VALUES(4, "Potholder", 5.90, 1, 10, 4);
+INSERT INTO crochet_things VALUES(5, "Coasters", 2.90, 20, 18, 1.5);
+
+SELECT * FROM crochet_things WHERE price ORDER BY price DESC;
+SELECT name, sold, rating FROM crochet_things WHERE rating ORDER BY rating DESC; 
+
+SELECT name, sold FROM crochet_things GROUP BY sold;
+
